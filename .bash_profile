@@ -18,8 +18,8 @@ export JAVA_HOME
 PATH=$JAVA_HOME/bin:$PATH
 export PATH
 
-if [ ! -f /home/tlibal/redshift.lock ]; then
-    touch /home/tlibal/redshift.lock
-    trap 'rm -f /home/tlibal/redshift.lock' SIGINT SIGTERM
+if [ ! -f ~/redshift.lock ]; then
+    touch ~/redshift.lock
+    trap 'rm -f ~/redshift.lock' SIGINT SIGTERM
     /usr/bin/redshift &> /dev/null
 fi
