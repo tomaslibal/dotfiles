@@ -12,7 +12,12 @@ PATH=$PATH:/usr/local/texlive/2015/bin/x86_64-linux/:/usr/local/texlive/2015/tex
 PATH=$PATH:/opt/firefox
 PATH=$PATH:/home/tlibal/gohome/bin
 
-JAVA_HOME=/usr/java/jdk1.8.0_60/
+if [ -f /usr/libexec/java_home ]; then
+    JAVA_HOME=`/usr/libexec/java_home`
+else
+    JAVA_HOME=/usr/java/jdk1.8.0_60/
+fi
+
 export JAVA_HOME
 
 PATH=$JAVA_HOME/bin:$PATH
