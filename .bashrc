@@ -14,6 +14,7 @@ fi
 
 
 alias rm='rm -i'
+alias ll='ls -lah'
 
 # git aliases
 alias gis='git status'
