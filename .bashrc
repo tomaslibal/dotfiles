@@ -25,3 +25,5 @@ alias gil='git log'
 # do not echo anything in bashrc as it breaks the SCP protocol
 # echo "Existing screen sessions"
 # screen -ls
+
+HISTSIZE=200000
