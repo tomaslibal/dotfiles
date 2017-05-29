@@ -26,4 +26,7 @@ alias gil='git log'
 # echo "Existing screen sessions"
 # screen -ls
 
-HISTSIZE=200000
+# command history in memory
+HISTSIZE=200000 
+# command history in the file
+HISTFILESIZE=200000
