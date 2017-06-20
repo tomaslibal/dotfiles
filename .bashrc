@@ -22,6 +22,8 @@ alias gia='git add'
 alias gic='git commit -m'
 alias gil='git log'
 
+alias tmux="TERM=screen-256color-bce tmux"
+
 # do not echo anything in bashrc as it breaks the SCP protocol
 # echo "Existing screen sessions"
 # screen -ls
