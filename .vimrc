@@ -13,6 +13,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-auto-save'
+Plugin 'tomlion/vim-solidity'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " "
