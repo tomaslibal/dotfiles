@@ -21,6 +21,8 @@ alias gis='git status'
 alias gia='git add'
 alias gic='git commit -m'
 alias gil='git log'
+alias gico='git checkout'
+alias gip='git pull'
 
 alias tmux="TERM=screen-256color-bce tmux"
 
