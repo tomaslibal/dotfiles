@@ -13,7 +13,7 @@ PATH=$PATH:/opt/firefox
 PATH=$PATH:/home/tlibal/gohome/bin
 
 if [ -f /usr/libexec/java_home ]; then
-    JAVA_HOME=`/usr/libexec/java_home`
+    JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 else
     JAVA_HOME=/usr/java/jdk1.8.0_60/
 fi
