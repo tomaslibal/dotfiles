@@ -8,12 +8,13 @@ call vundle#begin()
 " "call vundle#begin('~/some/path/here')
 "
 " " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+" Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-auto-save'
 Plugin 'tomlion/vim-solidity'
+Plugin 'klen/python-mode'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " "
@@ -43,6 +44,7 @@ set showmatch
 set listchars=tab:>-,trail:-
 set list
 
+syntax on
 set colorcolumn=80
 highlight ColorColumn ctermbg=7
 
