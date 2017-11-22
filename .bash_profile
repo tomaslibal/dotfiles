@@ -10,7 +10,7 @@ fi
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 PATH=$PATH:/usr/local/texlive/2015/bin/x86_64-linux/:/usr/local/texlive/2015/texmf-dist/
 PATH=$PATH:/opt/firefox
-PATH=$PATH:/home/tlibal/gohome/bin
+PATH=$PATH:~/gocode/bin
 
 if [ -f /usr/libexec/java_home ]; then
     JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
