@@ -20,6 +20,8 @@ fi
 
 export JAVA_HOME
 
+export GOPATH=~/gocode
+
 PATH=$JAVA_HOME/bin:$PATH
 export PATH
 
