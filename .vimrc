@@ -49,6 +49,7 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=7
 
 imap jj <Esc>
+vmap jj <Esc>
 
 nmap <c-left> :tabprevious<CR>
 nmap <c-right> :tabnext<CR>
