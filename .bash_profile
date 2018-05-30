@@ -30,3 +30,5 @@ if [ ! -f ~/redshift.lock ]; then
     trap 'rm -f ~/redshift.lock' SIGINT SIGTERM
     /usr/bin/redshift &> /dev/null
 fi
+
+export TERM=xterm-256color
