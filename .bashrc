@@ -36,3 +36,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 HISTSIZE=200000 
 # command history in the file
 HISTFILESIZE=200000
+
+# lynx home page
+WWW_HOME='https://duckduckgo.com'
+export WWW_HOME
