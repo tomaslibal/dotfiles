@@ -1,0 +1,14 @@
+### PDF
+
+type/^PDF
+        Open=(open %f &)
+
+### Images ###
+
+type/^JPEG
+        View=%view{ascii} /usr/lib/mc/ext.d/image.sh view jpeg
+        Include=image
+
+type/^PNG
+        Open=(open %f &)
+        Include=image
