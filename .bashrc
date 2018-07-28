@@ -25,6 +25,7 @@ alias gic='git commit -m'
 alias gil='git log'
 alias gico='git checkout'
 alias gip='git pull'
+alias gitc='git commit -S -m '
 
 alias tmux="TERM=screen-256color-bce tmux"
 

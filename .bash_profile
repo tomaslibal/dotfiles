@@ -12,6 +12,8 @@ PATH=$PATH:/usr/local/texlive/2015/bin/x86_64-linux/:/usr/local/texlive/2015/tex
 PATH=$PATH:/opt/firefox
 PATH=$PATH:~/gocode/bin
 
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/extras/CUPTI/lib64
+
 if [ -f /usr/libexec/java_home ]; then
     JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 else
