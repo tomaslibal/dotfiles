@@ -1,7 +1,7 @@
 [user]
 	name = Tomas Libal
 	email = tomas@libal.eu
-	signingkey = 493D0A3CFF95DC1D
+	signingkey = DEED3B7172C5278D
 	
 [pull]
 	rebase = true
